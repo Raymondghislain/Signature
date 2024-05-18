@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .email-signature {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 30px;
+            border: 3px solid #e0e0e0;
+            border-radius: 10px;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center; /* Centrer verticalement */
+        }
+        .profile-picture {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px; /* Bordure carrée */
+            object-fit: cover; /* Ajuster la taille de l'image */
+            margin-right: 20px;
+        }
+        .details {
+            flex: 1; /* Prend autant d'espace que possible */
+            display: flex;
+            flex-direction: column;
+        }
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .job-title {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .contact-info {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 5px;
+            display: flex; /* Afficher les éléments en ligne */
+            align-items: center; /* Centrer verticalement */
+        }
+        .contact-info p {
+            margin: 0;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #666;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-icons {
+            margin-right: 10px;
+            flex-shrink: 0; /* Ne pas réduire la taille des icônes */
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+        }
+        .signature-paragraph {
+            margin-top: 20px; /* Espacement entre la signature et le paragraphe */
+        }
+        .office-icons{
+            width: 20px;
+            height: 20px;
+            border-radius: 20px;
+            position: relative;
+        }
+        .footer-paragraph {
+            font-size: 12px;
+            color: #666;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-signature">
+        <img src="Images/Santé et prévoyance (2).png" alt="Profile Picture" class="profile-picture">
+        <div class="details">
+            <p class="name">Freddy MBIDA</p>
+            <p class="job-title">CEO Kalyassur</p>
+            <div class="contact-info">
+                <img src="Images/gps.png" class="office-icons">
+                <span class="contact-icons"></span>
+                <p>78 Avenue des Champs Elysées 75008 PARIS</p>
+            </div>
+            <div class="contact-info">
+                <img src="Images/email.png" class="office-icons">
+                <span class="contact-icons"></span>
+                <p><a href="mailto:your.email@example.com" style="text-decoration: none;">freddy.mbida@kalyassur.fr</a></p>
+            </div>
+            <div class="contact-info">
+                <img src="Images/web3.png" class="office-icons">
+                <span class="contact-icons"></span>
+                <p><a href="https://www.example.com" target="_blank" style="text-decoration: none;">www.kalyassur.fr</a></p>
+            </div>
+            <div class="contact-info">
+                <img src="Images/phone-call.png" class="office-icons">
+                <span class="contact-icons"></span>
+                <p>0646702225</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/Kalyassur" target="_blank"><img src="Images/facebook.png" alt="Facebook icon"></a>
+                <a href="https://www.linkedin.com/in/kalyassur-entreprise-4b461930a" target="_blank"><img src="Images/linkedin-logo.png" alt="LinkedIn icon"></a>
+            </div>
+            <p class="footer-paragraph">  IMPORTANT: The contents of this email and any attachments are confidential. It is strictly
+                forbidden to share any part of this message with any third party, without a written consent of
+                the sender. If you received this message by mistake, please reply to this message and follow
+                with its deletion, so that we can ensure such a mistake does not occur in the future.</p>
+        </div>
+    </div>
+   
+
+   
+</body>
+</html>
